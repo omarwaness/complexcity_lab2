@@ -9,14 +9,18 @@ This project compares the performance of **Bubble Sort**, **Selection Sort**, an
 ✅ Selection Sort took **0.000000 seconds**.
 
 ### **Large Dataset (1000 elements):**
-⚠️ Bubble Sort took **0.104695 seconds**.
-✅ Selection Sort took **0.049108 seconds**.
-🚀 Python Built-in Sort took **0.000000 seconds**.
+ Bubble Sort took **8.068824 seconds**.
+ Selection Sort took **2.904127 seconds**.
+ Insertion sort took **3.006150 seconds**.
+ Python Built-in Sort took **0.001964 seconds**.
 
 ## Conclusion
 1. **Small Datasets:**
    - Both Bubble Sort and Selection Sort execute nearly instantly on small inputs.
    - The choice of sorting algorithm does not significantly impact performance for small datasets.
+   - bubble sort has the worst preformance
+   - then comes selection sort
+   - lastly we have insertion sort
 
 2. **Large Datasets:**
    - **Bubble Sort is significantly slower** due to its O(n²) time complexity.
