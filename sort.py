@@ -100,4 +100,8 @@ def test_sorting_performance():
 # Run the performance test
 test_sorting_performance()
 
+#   Conclusion:
+# bubble sort has the worst preformance
+# then comes selection sort
+# lastly we have insertion sort
 
